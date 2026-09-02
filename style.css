@@ -1,8 +1,29 @@
-.story h1 {
-    font-size: 36px;
+.navbar {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.story p {
-    font-size: 18px;
-    line-height: 1.7;
+.navbar a {
+    color: #111827;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 22px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background: #111827;
+    color: white;
+}
+
+.navbar a.active {
+    background: #111827;
+    color: white;
 }
